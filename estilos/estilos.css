@@ -1,0 +1,159 @@
+
+    
+/*header*/
+@media only screen and (min-width: 950px) {
+    header.masthead .page-heading,
+    header.masthead .post-heading,
+    header.masthead .site-heading {
+      padding: 200px 0 150px;
+    }
+  }
+  
+  header.masthead .page-heading,
+  header.masthead .site-heading {
+    text-align: center;
+  }
+  
+  
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    header.masthead .page-heading h1,
+    header.masthead .site-heading h1 {
+      font-size: 80px;
+    }
+  }
+  
+  header.masthead .post-heading h1 {
+    font-size: 35px;
+  }
+  
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+  }
+  
+  header.masthead .post-heading .subheading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  header.masthead .post-heading .meta {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Lora', 'Times New Roman', serif;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    header.masthead .post-heading h1 {
+      font-size: 55px;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 30px;
+    }
+  }
+
+  /* Home - Servicios */
+
+
+.portfolio-item {
+    margin-bottom: 30px;
+  }
+
+  /*clientes-home */ 
+
+  .carousel-caption-2{
+    color: #000;
+}
+
+
+.carousel-item-2{
+  height: 180px;
+  margin: auto;
+}
+
+
+.centrar-texto {
+  text-align: center;
+  margin-top: 30px;
+
+}
+.pad {
+  width: auto;
+}
+
+.titulo-principal-modulo{
+  color: red;
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  padding: 30px 15px;
+}
+.container-serv {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right:auto ;
+  margin-left: auto;
+
+
+}
+
+.servicios-promociones{
+
+  background-image: linear-gradient(#8693AB, #BDD4E7);
+  text-align: left;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+}
+.servicios-description {
+  text-align: center;
+}
+
+.serv-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.servicios-promociones-2{
+
+  background-color: #F2F2F2;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+}
+
+boton-service-blue {
+  text-decoration: none;
+  border: 2px solid #0076ff;
+  border-radius: 4px;
+  background-color: #0076ff;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+
+}

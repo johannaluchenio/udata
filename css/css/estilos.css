@@ -1,0 +1,36 @@
+/*color de textos*/
+/*color de fondos*/
+/*botones*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #eeee;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  color: #333333;
+}
+h1.color-white, h2.color-white, h3.color-white {
+  color: #ffffff;
+}
+
+.boton, .boton-service-blue {
+  text-decoration: none;
+  border: 2px solid #0076ff;
+  border-radius: 4px;
+  background-color: #0076ff;
+}
+
+.boton-service-blue {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  color: #ffffff;
+}
