@@ -1,0 +1,31 @@
+@mixin buttons ($bgborde,$bgfondo,  $bgcolor, $bgpad, $bgsombra) {
+    border: $bgborde;
+    border-radius: 4px;
+    background-color: $bgfondo;
+    color: $bgcolor;
+    font-size: 1rem;
+    text-align: center;
+    padding: $bgpad;
+    box-shadow: 0px 5px 10px -4px $bgsombra;
+}
+
+@mixin valores ($bgfondo, $posicion, $padd) {
+    background-color: $bgfondo;
+    text-align: $posicion;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: $padd;
+}
+
+@mixin servicios ( $posicion, $padd) {
+    text-align: $posicion;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: $padd;
+}

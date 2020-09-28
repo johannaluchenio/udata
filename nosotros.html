@@ -9,75 +9,82 @@
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap" >
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="sass/css/main.css">
+        <link rel="stylesheet" href="estilos/estilos.css">
     </head>
     <body>
-        <!--Comienza barra menu -->
-        <header>
-            <div >
-                <nav >
-                    <div> 
-                        <a href="index.html">
-                        <img width="200" src="imagen/udata (1).svg" alt="logo" >
-                        </a>
-                    </div>
-                    <ul>
-                        <li><a href="contacto.html">Contacto</a> </li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="clientes.html">Clientes</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="valores.html">Valores</a></li>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a href="index.html">
+                <img width="200" src="imagen/udata (1).svg" alt="logo" >
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="clientes.html">Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="valores.html">Valores</a></li>
                     </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <h1>Nuestra experiencia </h1> 
-            <p>Creemos que lo más importante es que las empresas posean información confiable en la que basarse en el momento de tomar una decisión. Buscamos que las empresas crezcan, y sigan, gracias a información precisa, el camino de la rentabilidad. <br>
-                Nuestro propósito es lograr una relación de socios estratégicos con nuestros clientes, armando estrategias personalizadas de recolección y análisis de datos, según la particularidad del negocio.</p>
-                <div class="container">
-                    <div class="row">
-                        <div class="card">
-                            <section> 
-                                <img class="img-fluid" src="imagen/dannypaz.jpeg" class="img-circle" alt="Mision" width="280px" height="280">
-                                <h2 class="card-title">Danny Paz</h2>
-                                <h3 class="card-subtitle mb-2 text-muted"> Co-Founder</h3>
-                                <td class="card-text"       >
-                                    <ul>
-                                        <li>Javascript dev</li>
-                                        <li>NodeJs dev</li>
-                                        <li>Especialista y profesor de Google Analytics</li>
-                                        <li>Especialista en Google Tag Manager</li>
-                                        <li>Especialista en Google Data Studio</li>
-                                        <li>Especialista en el análisis del comportamiento de usuario</li>
-                                    </ul>
-                                </td>
-                            </section> 
-                        </div>
-                        <div >
-                            <section>
-                                <img src="imagen/nicolas.jpg" class="img-rounded"  alt="Vision" width="280px" height="280">
-                                <h2 >Nicolas Pinasco</h2>
-                                <h3> Co-Founder</h3>
-                                <td>
-                                    <ul>
-                                        <li>Python dev</li>
-                                        <li>Javascript dev</li>
-                                        <li>Especialista en transformación de datos</li>
-                                        <li>Especialista en Google Analytics</li>
-                                        <li>Especialista en Google Tag Manager</li>
-                                        <li>Especialista en crawlers y bots</li>
-                                    </ul>
-                                </td>
-                            </section>
-                        </div>
-                    </div>
                 </div>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="contacto-titulo">
+                        <h1 class="centrar-texto">Nosotros</h1> 
+                        <p class="servicios-description">Creemos que lo más importante es que las empresas posean información confiable en la que basarse en el momento de tomar una decisión. Buscamos que las empresas crezcan, y sigan, gracias a información precisa, el camino de la rentabilidad. <br>
+                            Nuestro propósito es lograr una relación de socios estratégicos con nuestros clientes, armando estrategias personalizadas de recolección y análisis de datos, según la particularidad del negocio.</p>
+                    </div>
+                    <div class="col-lg-8 col-sm-6 col-12" >
+                        <section> 
+                            <img class="img-fluid" src="imagen/dannypaz.jpeg" alt="" width="280px" height="280">
+                            <h2 class="card-title">Danny Paz</h2>
+                            <h3 class="card-subtitle mb-2 text-muted"> Co-Founder</h3>
+                            <td class="card-text">
+                                <ul>
+                                    <li>Javascript dev</li>
+                                    <li>NodeJs dev</li>
+                                    <li>Especialista y profesor de Google Analytics</li>
+                                    <li>Especialista en Google Tag Manager</li>
+                                    <li>Especialista en Google Data Studio</li>
+                                    <li>Especialista en el análisis del comportamiento de usuario</li>
+                                </ul>
+                            </td>
+                        </section> 
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <section>
+                            <img class="img-fluid" src="imagen/nicolas.jpg"  alt="" width="280px" height="280">
+                            <h2 class="card-title">Nicolas Pinasco</h2>
+                            <h3 class="card-subtitle mb-2 text-muted"> Co-Founder</h3>
+                            <td class="card-text">
+                                <ul>
+                                    <li>Python dev</li>
+                                    <li>Javascript dev</li>
+                                    <li>Especialista en transformación de datos</li>
+                                    <li>Especialista en Google Analytics</li>
+                                    <li>Especialista en Google Tag Manager</li>
+                                    <li>Especialista en crawlers y bots</li>
+                                </ul>
+                            </td>
+                        </section>
+                    </div>     
+                </div>
+            </div>
         </main>
-        <footer>
-            <p> <small> <strong> Somos una empresa especializada en la optimización, implmentación y recolección de datos </strong> Udatapartner © Copyright 2020 </small> </p>
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p> <small > <strong > Somos una empresa especializada en la optimización, implmentación y recolección de datos </strong> <br> Udatapartner © Copyright 2020 </small> </p>
+            </div>
         </footer>
-        <script src="js/jquery-3.5.1.slim.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>

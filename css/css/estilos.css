@@ -1,11 +1,13 @@
 /*color de textos*/
 /*color de fondos*/
 /*botones*/
+/*pag valores*/
 html, body {
   margin: 0;
   padding: 0;
+  padding-top: 56px;
   font-size: 16px;
-  background-color: #eeee;
+  background-color: #ffffff;
   color: #333333;
 }
 
@@ -16,14 +18,26 @@ h1.color-white, h2.color-white, h3.color-white {
   color: #ffffff;
 }
 
-.boton, .boton-service-blue {
+div {
+  color: rgba(0, 0, 0, 0.75);
+}
+div.serv-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  color: #ffffff;
+}
+
+.boton-service-blue {
   text-decoration: none;
   border: 2px solid #0076ff;
   border-radius: 4px;
   background-color: #0076ff;
-}
-
-.boton-service-blue {
   color: #ffffff;
   font-size: 1rem;
   text-align: center;
@@ -31,6 +45,70 @@ h1.color-white, h2.color-white, h3.color-white {
   box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.75);
 }
 
-footer {
+.boton-contacto {
+  text-decoration: none;
+  border: 2px solid #00ccff;
+  border-radius: 4px;
+  background-color: #00ccff;
   color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 30px;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.75);
+  margin: 30px 20px;
+}
+
+.fondo-mision {
+  background-color: #4285f4;
+  text-align: left;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.fondo-vision {
+  background-color: #34a853;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.fondo-pasion {
+  background-color: #FBBC05;
+  text-align: left;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.servicios-promociones {
+  text-align: left;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+  background-color: #9bd8ff;
+}
+
+.servicios-promociones-2 {
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+  background-color: #F2F2F2;
 }

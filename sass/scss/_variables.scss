@@ -2,16 +2,26 @@
 /*color de textos*/
 
 $color-texto-titulos: #333333;
-$texto-footer: #ffffff;
+$color-blanco: #ffffff;
 
 /*color de fondos*/
 $color-fondo-gris: #eeee;
-$color-fondo-blanco: #ffffff;
-
+$fondo-mision: #4285f4;
+$fondo-vision: #34a853;
+$fondo-pasion: #FBBC05;
+$fondo-partners: #f8f8f8;
 
 /*botones*/
-
-$color-boton-borde: #0076ff;
-$color-boton-fondo:#0076ff; 
+$boton-borde: #0076ff;
+$boton-fondo: #0076ff; 
+$boton-contacto: rgb(0, 204, 255) ;
+$borde-contacto: rgb(0, 204, 255); 
+$pad-boton: 10px 20px;
+$pad-boton-contact: 19px 60px;
 
 $color-negro: rgba(0,0,0,0.75); 
+
+/*pag valores*/
+$posicion-derecha: right;
+$posicion-izquierda: left; 
+$pad-boton-valores: 20px 0px;

@@ -9,61 +9,100 @@
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap" >
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="sass/css/main.css">
+        <link rel="stylesheet" href="estilos/estilos.css">
     </head>
     <body>
-        <!--Comienza barra menu -->
-        <header>
-            <div >
-                <nav >
-                    <div> 
-                        <a href="index.html">
-                        <img width="200" src="imagen/udata (1).svg" alt="logo" >
-                        </a>
-                    </div>
-                    <ul>
-                        <li><a href="contacto.html">Contacto</a> </li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="clientes.html">Clientes</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="valores.html">Valores</a></li>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <a href="index.html">
+                <img width="200" src="imagen/udata (1).svg" alt="logo" >
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="clientes.html">Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="valores.html">Valores</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </header>
-        <main > 
-            <h1 >Nuestros Clientes</h1> 
-            <h2 >Lo que dicen nuestros clientes </h2>
-            <div>
-                <section >     
-                    <img src="imagen/fravega.png" alt="Mision" width="300px" height="200">
-                    <p> Tener un dashboard unificado de la venta de nuestros productos en los diferentes canales en donde tenemos presencia, nos ayuda a entender donde hay que invertir <strong>-Fravega-</strong>  </p>
-                </section> 
+        </nav>
+        <main> 
+            <div class="container">
+                <div>
+                    <h2 class="centrar-texto">Nuestros clientes </h2>
+                    <div class="row" >
+                        <div class="col-lg-4 col-sm-6 portfolio-item">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="imagen/fravega2.png" alt="fravega logo" width="348px" height="199px" >
+                                <div class="card-body">
+                                    <h4 class="card-title"> Fravega </h4>
+                                    <p class="card-text">Tener un dashboard unificado de la venta de nuestros productos en los diferentes canales en donde tenemos presencia, nos ayuda a entender donde hay que invertir.</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item">
+                            <div class="card h-100">
+                                <img  class="card-img-top" src="imagen/farmacity2.png" alt="Farmacity logo" width="348px" height="199px" >
+                                <div class="card-body"> 
+                                    <h4 class="card-title"> Farmacity </h4>
+                                    <p class="card-text">Ahora podemos tomar decisiones en base a el comportamiento que tienen nuestros usuarios. Antes no lo teniamos en cuenta, pero ahora notamos los beneficios que nos trae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="imagen/vtex.png" alt="Vtex logo" >
+                                <div class="card-body"> 
+                                    <h4 class="card-title"> Vtex </h4>
+                                    <p class="card-text">Logramos mejorar la planificación comercial entendiendo como se comportan los usuarios con respecto a la cantidad de oferta que mostramos en una landing y en el resto del flujo del sitio web.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item" >
+                            <div class="card h-100">
+                                <img  class="card-img-top" src="imagen/india.jpg" alt="le india logo" width="348px" height="199px">
+                                <div class="card-body"> 
+                                    <h4 class="card-title"> Little India </h4>
+                                    <p class="card-text">Dashboards de seguimiento de todos tus canales de venta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item"> 
+                            <div class="card h-100">
+                                <img  class="card-img-top" src="imagen/viajandovivo.png" alt="viajando vivo logo" width="348px" height="199px">
+                                <div class="card-body"> 
+                                    <h4 class="card-title" >Viajando vivo </h4>
+                                    <p class="card-text"> Hace unos años comence con este proyecto y no sabia como llegar a la gente, gracias a ustedes pude saber a que publico me dirigo, como mejorar la comunicación y comunicar de forma atractiva los viajes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item">
+                            <div class="card h-100">
+                                <img  class="card-img-top" src="imagen/exapuni.png" alt="Exapuri logo" width="200px" height="199px">
+                                <div class="card-body"> 
+                                    <h4 class="card-title"> Exapuni </h4>
+                                    <p class="card-text">Nos ayudaron a entender como interactuan nuestros usuarios en el sitio y así aplicar buenas practicas de diseño.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <section >
-                    <img src="imagen/vtex.png" alt="Mision" width="280px" height="150">
-                    <p> Logramos mejorar la planificación comercial entendiendo como se comportan los usuarios con respecto a la cantidad de oferta que mostramos en una landing. <strong>- Vtex -</strong> </p>
-                </section> 
-            </div>
-            <div>
-                <section >
-                    <img src="imagen/farmacity.png" alt="Vision" width="240px" height="180">
-                    <p > Ahora podemos tomar decisiones en base a el comportamiento que tienen nuestros usuarios. Antes no lo teniamos en cuenta, pero ahora notamos los beneficios que nos trae. <strong>- Farmacity-</strong>  </p>
-                </section>
-            </div>
-            <section >
-                <img src="imagen/fravega.png" alt="Fravega" width="80" height="40">
-                <img src="imagen/farmacity.png" alt="Farmacity"width="80" height="60">
-                <img src="imagen/exapuni.png" alt="Exapuni"width="80" height="60">
-                <img src="imagen/viajandovivo.png" alt="Viajando Vivo"width="80" height="60">
-                <img src="imagen/vtex.png" alt="Vtex"width="80" height="40">
-            </section>
         </main>
-        <footer>
-            <p> <small> <strong> Somos una empresa especializada en la optimización, implmentación y recolección de datos </strong> Udatapartner © Copyright 2020 </small> </p>
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p> <small > <strong > Somos una empresa especializada en la optimización, implmentación y recolección de datos </strong> <br> Udatapartner © Copyright 2020 </small> </p>
+            </div>
         </footer>
-        <script src="js/jquery-3.5.1.slim.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -13,16 +13,15 @@
         <link rel="stylesheet" href="estilos/estilos.css">
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top ">
             <div class="container">
-                <a href="index.html">
+                <a class="navbar-brand" href="index.html">
                 <img width="200" src="imagen/udata (1).svg" alt="logo" >
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" >
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a> </li>
                         <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
@@ -33,28 +32,26 @@
                 </div>
             </div>
         </nav>
-        <div>
-            <header class="masthead" style="background-image: url(imagen/homepage.jpg)">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-10 mx-auto">
-                            <div class="site-heading" >
-                                <h1 class="padding-principal color-white "> Udatapartner</h1> 
-                                <span class="subheading color-white">Implementamos sistemas de medición aplicando métodos personalizados de recolección de datos para garantizar información precisa y apropiada para tu negocio.</span>
-                            </div>
+        <main >
+            <div>
+                <header class="masthead " style="background-image: url(imagen/prueba2.png)">
+                    <div>
+                        <div class="site-heading" >
+                            <h1 class="principal-title "> Udatapartner </h1> 
+                            <span class="subheading">Implementamos sistemas de medición aplicando métodos personalizados de recolección de datos para garantizar información precisa y apropiada para tu negocio.</span>
+                            <div class="margen1">
+                            <a class="boton-contacto" href="contacto.html" >Contactanos</a>
+                        </div>
                         </div>
                     </div>
-                </div>
-            </header>
-        </div>
-        <main >
+                </header>
+            </div>
             <div class="container">
                 <!--Empieza Servicios-->
                 <section>
                     <div>
                         <h2 class="centrar-texto">Servicios </h2>
-                        <h3 class="centrar-texto">Garantizamos datos precisos y apropiados para tu negocio</h3>
+                        <h3 class="servicios-description">Garantizamos datos precisos y apropiados para tu negocio</h3>
                         <div class="row" >
                             <div class="col-lg-4 col-sm-6 portfolio-item">
                                 <div class="card h-100">
@@ -63,7 +60,7 @@
                                         <h4 class="card-title"> Análisis de promociones </h4>
                                         <p class="card-text">Brindamos informes que ayuden a entender la productividad</p>  
                                         <a href="servicios.html#analisis-promociones"  class="boton-service-blue" >Ver más</a>
-                                    </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -82,7 +79,7 @@
                                     <div class="card-body"> 
                                         <h4 class="card-title"> Rendimiento de productos </h4>
                                         <p class="card-text">Brindamos informes que ayuden a entender la productividad</p>
-                                        <a  class="boton-service-blue" href="servicios.html#rendimiento-producto">Ver más</a>
+                                        <a  class="boton-service-blue " href="servicios.html#rendimiento-producto">Ver más</a>
                                     </div>
                                 </div>
                             </div>
@@ -119,77 +116,82 @@
                         </div>
                     </div>
                 </section>
-                <!--Empieza Valores-->
-                <div class="d-flex flex-row ">
-                    <div class="col-lg-6">
-                        <h3>Mision</h3>
-                        <p >Ofrecer métodos de recolección de datos personalizados para cada negocio </p>
-                        <h3>Vision</h3>
-                        <p>Consolidarnos como la mejor empresa de toda latinoamérica en análisis de datos web </p>
-                        <h3>Pasión</h3>
-                        <p>Es el principal motivador para hacer lo que elegimos, aprender en todo momento y continuar haciendo nuevos proyectos</p>
-                    </div>
-                    <div class="col-lg-6 margen-prueba">
-                        <img class="img-fluid rounded mb-4  "  src="imagen/valores.jpg" alt="valores" >
-                    </div>
+            </div>
+            <!--Empieza Valores-->
+            <div class="row valores fondo-color2">
+                <div class="col-lg-6">
+                    <h3>Mision</h3>
+                    <p >Ofrecer métodos de recolección de datos personalizados para cada negocio </p>
+                    <h3>Vision</h3>
+                    <p>Consolidarnos como la mejor empresa de toda latinoamérica en análisis de datos web </p>
+                    <h3>Pasión</h3>
+                    <p>Es el principal motivador para hacer lo que elegimos, aprender en todo momento y continuar haciendo nuevos proyectos</p>
                 </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded "  src="imagen/valores.jpg" alt="valores" >
+                </div>
+            </div>
+            <!--clientes-->
+            <div class="container">  
                 <div class="fondo-blanco">
                     <h2 class="centrar-texto"> Clientes Felices </h2>
-                    <div class="bd-example">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner col-sm-12 col-lg-12 " role="listbox">
-                            <div class="carousel-item carousel-item-2 active">
-                                <div class="carousel-caption d-none d-md-block carousel-caption-2">
-                                <h3>Farmacity</h3>
-                                <p>Ahora podemos tomar decisiones en base a el comportamiento que tienen nuestros usuarios. Antes no lo teniamos en cuenta, pero ahora notamos los beneficios que nos trae.</p>
-                                </div>
+                    <div class="card-columns">
+                        <div class="card">
+                            <div class="card-body">
+                            <h4 class="card-title">Fravega</h4>
+                            <p class="card-text">Tener un dashboard unificado de la venta de nuestros productos en los diferentes canales en donde tenemos presencia, nos ayuda a entender donde hay que invertir</p>
                             </div>
-                            <div class="carousel-item carousel-item-2" >
-                                <div class="carousel-caption d-none d-md-block carousel-caption-2">
-                                <h3>Fravega</h3>
-                                <p>Tener un dashboard unificado de la venta de nuestros productos en los diferentes canales en donde tenemos presencia, nos ayuda a entender donde hay que invertir</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item carousel-item-2" >
-                                <div class="carousel-caption d-none d-md-block carousel-caption-2">
-                                <h3>Vtex</h3>
-                                <p>Logramos mejorar la planificación comercial entendiendo como se comportan los usuarios con respecto a la cantidad de oferta que mostramos en una landing.</p>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                            </div>
-                        </div>                    
-                    </div>
-                    <div class="row " >
-                        <div class="col-lg-3 col-sm-6 mb-3 pad" >
-                            <img class="img-fluid " src="imagen/fravega.png" alt="Fravega" width="80" height="40">
                         </div>
-                        <div class="col-lg-3 col-sm-6 mb-3 pad">
-                            <img class="img-fluid " src="imagen/farmacity.png" alt="Farmacity" width="90" height="90">
+                        <div class="card p-3">
+                            <blockquote class="card-body card-blockquote">
+                            <h4 class="card-title">Viajando vivo</h4>
+                            <p>Hace unos años comence con este proyecto y no sabia como llegar a la gente, gracias a ustedes pude saber a que publico me dirigo, como mejorar la comunicación y comunicar de forma atractiva los viajes.</p>
+                            </blockquote>
                         </div>
-                        <div class="col-lg-3 col-sm-6 mb-3 pad">
-                            <img class="img-fluid" src="imagen/exapuni.png" alt="Exapuni"width="80" height="60">
+                        <div class="card">
+                            <div class="card-body">
+                            <h4 class="card-title">Farmacity</h4>
+                            <p class="card-text">Ahora podemos tomar decisiones en base a el comportamiento que tienen nuestros usuarios. Antes no lo teniamos en cuenta, pero ahora notamos los beneficios que nos trae.</p>
+                            </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6 mb-3 pad">
-                            <img class="img-fluid" src="imagen/vtex.png" alt="Vtex"width="80" height="40">
+                        <div class="card bg-primary text-white p-3 text-center">
+                            <blockquote class="card-blockquote">
+                            <p>Trabajamos pensado en brindar lo mejor para nuestros clientes día a dia</p>
+                            <footer>
+                                <small>
+                                UDatapartner 
+                                </small>
+                            </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-body">
+                            <h4 class="card-title">Exapuni</h4>
+                            <p class="card-text">Nos ayudaron a entender como interactuan nuestros usuarios en el sitio y así aplicar buenas practicas de diseño.</p>
+                            </div>
+                        </div>
+                        <div class="card p-3 text-right">
+                            <blockquote class="card-blockquote">
+                            <h4 class="card-title">Little India</h4>
+                            <p>Mis ventas crecieron considerablemente con las buenas practicas en Ceo que aplicaron en mi sitio.</p>
+                            </blockquote>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                            <h4 class="card-title">Vtex</h4>
+                            <p class="card-text">Logramos mejorar la planificación comercial entendiendo como se comportan los usuarios con respecto a la cantidad de oferta que mostramos en una landing y en el resto del flujo del sitio web.</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <!--Partnets-->
+            <div class="fondo-color">
+                <div>
+                    <h2 class="partner">Nuestros Partners</h2>
+                </div>
+                <div>
+                    <img src="imagen/GA.png" alt="Google Analytics" width="260" height="150">
                 </div>
             </div>
         </main>
@@ -203,3 +205,5 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
+
+

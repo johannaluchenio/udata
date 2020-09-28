@@ -1,0 +1,9 @@
+.boton-service-blue {
+    @include buttons ( 2px solid $boton-borde, $boton-fondo,  $color-blanco, $pad-boton, $color-negro ); 
+}
+
+.boton-contacto {
+    @include buttons ( 2px solid $borde-contacto, $boton-contacto,  $color-blanco, $pad-boton-contact, $color-negro );
+    margin-left: 30px; 
+    font-weight: 700;
+}

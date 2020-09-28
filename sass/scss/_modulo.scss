@@ -1,0 +1,23 @@
+.fondo-mision {
+    @include valores (  $fondo-mision, $posicion-izquierda,  $pad-boton-valores );
+    
+}
+
+.fondo-vision {
+    @include valores ( $fondo-vision, $posicion-derecha, $pad-boton-valores);
+}
+
+.fondo-pasion {
+    @include valores ( $fondo-pasion,  $posicion-izquierda, $pad-boton-valores ); 
+}
+
+
+.servicios-promociones {
+    @include servicios ( $posicion-izquierda, $pad-boton-valores);
+    background-color: #9bd8ff;
+  }
+  
+.servicios-promociones-2{
+    @include servicios ( $posicion-derecha, $pad-boton-valores);
+    background-color: #F2F2F2;
+  }
