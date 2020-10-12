@@ -1,0 +1,496 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.frase{
+     background-color: #000000;
+     text-align: center;
+ }
+ 
+ .frase-text {
+    color: #ffffff;
+    font-size: small;
+    font-style: normal;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+
+.logo {
+    float: left;
+
+}
+.logo img { height: 50px; width: auto;}
+
+.header-main {
+    width: 100%;
+    height: 80px;
+    background-color: #3e4044;
+    position: sticky;
+    top: 0px;
+}
+
+header ul {
+    float: right;
+}
+
+
+header ul, 
+header ul li { 
+    display: inline-block; 
+    color: black;
+}
+
+nav {
+    width: 100%;
+    /*margin: 0 auto;*/
+
+}
+.main-menu {
+   /* float: right;*/
+    margin-right: 10px;
+}
+
+.main-menu ul li a { 
+    color: #ffffff;
+    text-decoration: none;
+    margin: 25px 20px;
+    
+}
+
+.main-menu ul li a:hover {
+    color:rgb(0, 204, 255);
+    border-top: 3px solid rgb(0, 204, 255);
+    padding: 15 px;
+}
+
+
+h1 {
+    color: #000000;
+    font-family: 'Fjalla One' sans-serif ;
+    margin: 0px;
+}
+
+
+
+.principal-title {
+    color: #000000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px 40px; 
+    padding: 90px 80px;
+    padding-left: 10px  ;
+    text-align: left;
+
+}
+.principal-text {
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    height: auto;
+    width: 800px;
+    padding-left: 30px ;
+    padding: right 20px; ;
+    line-height: 1.8;
+}
+
+.imagen-principal {
+    background-image: url(../imagen/analytics-top-banner.jpg)    ;
+    background-size: cover;
+    height: 65vh;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+p{
+    color: #000000
+}
+
+.divisor-modulo {
+    margin: 0px auto;
+    padding: 10px 20px 20px 20px;
+  
+}
+.titulo-servicios {
+    padding-bottom: 40px;
+}
+
+.valores-home {
+    margin: 0px 10px 5px 10px;
+}
+
+.container-one {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.container-one-valores {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*
+ a:hover {
+    color:#ff8000;
+ } 
+*/
+.valores-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-one-services {
+    background-color: #eeeeee;
+}
+
+.container-services {
+    width: 280px;
+    height: 380px;
+    padding: 10px 12px;
+    margin: 15px 60px;
+    border: 1px solid #4444;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+
+input {
+    color: #058283;
+}
+
+.servicios-description {
+    text-align: center;
+}
+.boton-service-blue {
+    text-decoration: none;
+    border: 2px solid #0076ff;
+    border-radius: 4px;
+    background-color: #0076ff;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.75);
+
+}
+
+.container-services a:hover {
+    background-color: #094488 ;
+    border: 2px solid #094488; 
+}
+.beneficios {
+    background-color: #F2F2F2;
+}
+
+.grafic {
+    margin: auto;
+    padding: 10px 100px 30px ;
+   
+}
+.grafic-img { 
+    height: 230px; 
+    width: auto;
+    padding: 40px 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*
+.table-center {
+    margin: auto;
+
+}
+.table-title {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+
+
+}
+.table-contenido {
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+.table-descripcion {
+    list-style-type: square;
+}
+*/
+
+
+.valores {
+   /* background-color: rgb(64, 210, 210) ;*/
+    padding: 60px 0;
+    background-image: linear-gradient( gray, White );
+   /* transform: skewY(20deg); */
+    /*transform: translate(40px, 50px);*/
+   /* transform: rotate(45deg);*/
+   /*transform: rotateY(70deg);*/
+
+}
+.valores-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right:auto ;
+    margin-left: auto;
+}
+.container-text {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.valores-text  div {
+    font-family: 'Fjalla One', sans-serif ;
+    text-align: left;
+    display: flex;
+}
+.valores img { 
+    padding-left: 15px;
+    padding-right: 15px ;
+    margin: auto;
+}
+
+.valores-text {
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.valores-text-2 {
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;;
+
+}
+
+.clientes {
+    padding: 50px ;
+}
+.clientes img { 
+    height: 100px; 
+    width: auto;
+    padding: 40px 20px; 
+} 
+.clientes-title {
+    padding: 0px 10px;
+    text-align: center;
+
+}
+.clientes p {
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+
+}
+.contacto-interes {
+    font-weight: bold;
+} 
+
+.logos-clientes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nosotros {
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+footer p {
+
+    color: #ffffff;
+    background-color: #3e4044;
+    padding: 20px 0px 15px 10px; 
+    margin: 0px;
+
+}
+
+.footer-text {
+    margin: 0px 15px ;
+}
+
+.gracias {
+    height: 80vh;
+
+}
+.gracias2 {
+    padding: 150px 20px;
+}
+.gracias-text {
+    margin: 50px 40px 100px 40px;
+}
+
+/* Pag de servicios - inicio */
+
+.titulo-principal-modulo{
+    color: #000000;
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    padding: 30px 15px;
+}
+.container-serv {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right:auto ;
+  margin-left: auto;
+
+
+}
+.serv-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    margin: auto;
+    text-align: center;
+    
+}
+.servicios-promociones{
+
+    background-image: linear-gradient(#8693AB, #BDD4E7);
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+}
+section img { 
+    padding-left: 15px;
+    padding-right: 15px ;
+    margin: 20px 0;
+}
+
+.servicios-promociones-2{
+
+    background-color: #F2F2F2;
+    text-align: right;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+}
+/* Pag de servicios - fin */
+.fondo {
+    background-color: #eeeeee;
+}
+.fondo-mision {
+    background-color: #4285f4;
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.fondo-vision {
+    background-color: #34a853;
+    text-align: right;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.fondo-pasion {
+    background-color: #FBBC05;
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+/*Contacto*/
+.contacto-largo {
+    height: 80vh;
+}
+.contacto-titulo {
+    padding: 15px 15px;
+}
+
+ .completar {
+    width: 150px; height: 19px;
+    transition: all 2s;       
+ }
+.mar-padd {
+    padding-top: 20px;
+}
+ input:focus {
+    width: 200px;
+    height: 25px;
+    font-size: 24px;
+ }
+
+ .etiquetas{
+     display: none;
+ }
+
+ .contacto-contenedores {
+    display: flex;     
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100px;
+ }
+ .contacto-subcontenedor {
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.clientes-box {
+    display: flex;     
+    flex-direction: column; 
+    justify-content: center;
+    height: 300px;
+    margin: auto;
+    padding: 20px 10px;
+    border: 1px solid #4444;
+}
+ 
+.text-cliente {
+    padding: 20px 300px;
+    margin: auto;
+}
+.box-nosotros {
+    text-align: center;
+    width: 300px;
+    height: 730px;
+    padding: 10px 12px;
+    margin: 15px 60px;
+    border: 1px solid #4444;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.texto-especialidades {
+    text-align: left;
+}

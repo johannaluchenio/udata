@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Udatapartner</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="imagen/png" href="imagen/iso-1.png">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap" >
+        <link rel="stylesheet" href="css/estilos.css" >
+    </head>
+    <body>
+        <!--Comienza barra menu -->
+        <header class="header-main">
+            <div >
+                <nav class="main-menu" >
+                    <div class="logo"> 
+                        <a href="index.html">
+                        <img width="200" src="imagen/udata (1).svg" alt="logo" >
+                        </a>
+                    </div>
+                    <ul>
+                        <li><a href="contacto.html">Contacto</a> </li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="valores.html">Valores</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="fondo contacto-largo">
+            <div class="contacto-titulo">
+                <h1 class="servicios-description">Formulario de contacto</h1> 
+                <p class="servicios-description">Contanos en que podemos ayudarte para mejorar tu negocio</p>
+            </div>
+            <section class="servicios-description contacto-contenedores"> 
+                <form action="gracias.html" method="POST">
+                    <div class="contacto-subcontenedor">
+                        <img src="imagen/user.png" alt="Nombre" width="30" height="30" >
+                        <label for="nombre" class="etiquetas">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre*" class="completar" >
+                        <label for="apellido" class="etiquetas">Apellido</label>
+                        <input type="text" name="apellido" placeholder="Apellido" class="completar"><br><br>
+                    </div>
+                    <div class="contacto-subcontenedor">
+                        <img src="imagen/mail.png" alt="correo"  width="30" height="30">
+                        <label for="mail" class="etiquetas">Mail</label>
+                        <input type="text" name="mail" placeholder="Correo electronico*" class="completar"><br><br>
+                    </div>
+                    <div class="contacto-subcontenedor">
+                        <img src="imagen/comentario.png" alt="Comentario" width="30" height="30">
+                        <label for="comentario" class="etiquetas">Comentario</label>
+                        <textarea name="comentario" ></textarea><br><br>
+                    </div>
+                    <div class="mar-padd">
+                        <input type="submit" name="boton" value="Enviar" class="boton-service-blue" >
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p> <small> <strong> Somos una empresa especializada en la optimización, implmentación y recolección de datos </strong> Udatapartner © Copyright 2020 </small> </p>
+        </footer>
+    </body>
+</html>

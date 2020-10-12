@@ -1,5 +1,14 @@
 
-  /*pagina gracias */
+  
+  .cambiar:hover
+  {
+    /* color:#494c46; */
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(0.8);
+    transform: scale(1.1);
+   
+  }
+
   .alto {
     height: 85vh;  
   }
@@ -17,37 +26,23 @@
   .contacto-titulo {
     padding: 30px 15px;
   }
-  /*cajas servicios home*/
-  .portfolio-item {
-    margin-bottom: 30px;
-  }
-/*carrusel clientes*/
-  .carousel-caption-2{
-    color: #000;
-}
-.carousel-item-2{
-  height: 180px;
-  margin: auto;
-}
-.fondo-color {
-  background: #f8f8f8;
-  padding-top: 70px;
-  padding-bottom: 190px;
-}
-.fondo-color2 {
-  background-image: linear-gradient( gray, White );
-  padding: 70px 130px 50px 130px;
 
 
+.showcase .showcase-text {
+  padding: 3rem;
 }
-@media  (max-width: 800px) {
-  .subheading {
-    padding-right: 10px;
-    background-color: red;
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
   }
 }
 
-.margen1{
-  margin-top: 6rem;
+.portfolio-item {
+  margin-bottom: 30px;
 }
-

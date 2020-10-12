@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="sass/css/main.css">
+        <link rel="stylesheet" href="estilos/estilos.css">
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
@@ -21,7 +22,7 @@
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" >
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a> </li>
                         <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
@@ -32,67 +33,61 @@
                 </div>
             </div>
         </nav>
-        <div >
-            <h1 class="centrar-texto">Servicios</h1> 
-            <h2 class="titulo-principal-modulo">Implementamos sistemas de medición aplicando métodos personalizados de recolección de datos para garantizar información precisa y apropiada para tu negocio.</h2>
-        </div>
-            <div>
-                <section id="analisis-promociones" class="servicios-promociones"> 
-                    <img src="imagen/analisisdepromociones.jpg" alt="analisis de promociones" width="30%" height="30%">
-                    <div class="serv-text">
-                        <h2 class="servicios-description">Análisis de promociones</h2>                         
-                        <p >Brindamos informes que ayuden a entender la productividad de tus promociones, cupones, landings y productos de toda tu web.
-                            Te gustaría saber ¿Qué relación costo / posición tienen tus banners? ¿Cuál es el banner que más interés generó? ¿Cuál es el cupón que más ingresos realizó? ¿Cuál es el rendimiento de tus landings? ¿Qué tan óptima es tu estrategia de selección de productos para una landing?</p>
-                    </div>
-                </section> 
-            </div>
+        <main>
             <div >
-                <section id="comportamiento" class="servicios-promociones-2 ">
-                    <div class="serv-text">
-                        <h2 class="servicios-description">Comportamiento de Compra</h2>
-                        <p>Analizamos los intereses de tus clientes en el flujo de compra para ayudarte a implementar una mejor experiencia en tu web, la cual genere una mayor conversión.
-                            ¿En qué paso del checkout, abandonan los usuarios? ¿Con cuántos productos llegan al carrito y cuántos terminan comprando? ¿Hay problemas en algún paso del checkout? ¿Cuál es el medio de pago y la cuota más elegida? ¿Los usuarios prefieren envío a domicilio o retiro en sucursal?</p>
-                    </div>
-                    <img src="imagen/comportamientocompra1.jpg" alt="Comportamiento de compra" width="40%" height="40%" >
-                </section> 
+                <h1 class="centrar-texto">Servicios</h1> 
+                <h2 class="titulo-principal-modulo">Implementamos sistemas de medición aplicando métodos personalizados de recolección de datos para garantizar información precisa y apropiada para tu negocio.</h2>
             </div>
-            <div>
-                <section id="rendimiento-producto" class="servicios-promociones">
-                    <img src="imagen/rendimientodelproducto.jpg" alt="rendimiento del producto" width="30%" height="30%">
-                    <div class="serv-text">
-                        <h2 class="servicios-description">Rendimiento de Productos</h2>
-                        <p>Optimizamos tu web para mejorar el orden en los diferentes listados de productos que muestres a tus clientes. Te ayudamos a contestar: ¿El ordenamiento que usaste, es el más efectivo? ¿Qué rendimiento tendrías con un ordenamiento diferente? ¿Qué otros insights no estoy teniendo en cuenta para ordenar mis productos, pero que sí les interesa a los usuarios? ¿Cuáles son mis productos con mejor CTR?</p>
+            <section id="analisis-promociones" class="showcase">
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters">
+                        <div class="col-lg-6 order-lg-2 text-white showcase-img " style="background-image: url('imagen/analisisdepromociones.jpg"></div>
+                        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                            <h2>Análisis de promociones</h2>
+                            <p class="lead mb-0">Brindamos informes que ayuden a entender la productividad de tus promociones, cupones, landings y productos de toda tu web.
+                                Te gustaría saber ¿Qué relación costo / posición tienen tus banners? ¿Cuál es el banner que más interés generó? ¿Cuál es el cupón que más ingresos realizó? ¿Cuál es el rendimiento de tus landings? ¿Qué tan óptima es tu estrategia de selección de productos para una landing?</p>
+                        </div>
                     </div>
-                </section>
-            </div>
-            <div>
-                <section id="rendimiento-venta" class="servicios-promociones-2 ">
-                    <div class="serv-text">
-                        <h2 class="servicios-description">Rendimiento de canales de venta</h2>
-                        <p>Generamos dashboards de seguimiento de todos tus canales de venta para que puedas tomar mejores decisiones con tus productos. ¿Cuál es el producto más visitado por canal de venta? ¿Qué insight debo mejorar en cada canal de venta?</p>
+                    <div id="comportamiento" class="row no-gutters">
+                        <div class="col-lg-6 text-white showcase-img " style="background-image: url('imagen/comportamientocompra1.jpg');"></div>
+                        <div class="col-lg-6 my-auto showcase-text">
+                            <h2>Comportamiento de Compra</h2>
+                            <p class="lead mb-0">Analizamos los intereses de tus clientes en el flujo de compra para ayudarte a implementar una mejor experiencia en tu web, la cual genere una mayor conversión.
+                                ¿En qué paso del checkout, abandonan los usuarios? ¿Con cuántos productos llegan al carrito y cuántos terminan comprando? ¿Hay problemas en algún paso del checkout? ¿Cuál es el medio de pago y la cuota más elegida? ¿Los usuarios prefieren envío a domicilio o retiro en sucursal?</p>
+                        </div>
                     </div>
-                    <img src="imagen/rendimientodecanales.jpg" alt="rendimiento de canales de ventas" width="30%" height="30%">
-                </section> 
-            </div>
-            <div class="container-serv">
-                <section id="auditoria" class=" servicios-promociones">
-                    <img src="imagen/auditorias.jpg" alt="Auditorias de seguimiento" width="30%" height="30%">
-                    <div class="serv-text">
-                        <h2 class="servicios-description"> Auditoría de seguimiento</h2>
-                        <p>Auditamos tu sitio web para optimizar implementaciones que posees de tags de seguimiento, conversión y remarketing. Mejoramos las implementaciones según el tipo de sitio, single page, multi page, app nativas.</p>
+                    <div  id="rendimiento-producto" class="row no-gutters">
+                        <div class="col-lg-6 order-lg-2 text-white showcase-img " style="background-image: url('imagen/rendimientodelproducto.jpg');"></div>
+                        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                            <h2>Rendimiento de Productos</h2>
+                            <p class="lead mb-0">Optimizamos tu web para mejorar el orden en los diferentes listados de productos que muestres a tus clientes. Te ayudamos a contestar: ¿El ordenamiento que usaste, es el más efectivo? ¿Qué rendimiento tendrías con un ordenamiento diferente? ¿Qué otros insights no estoy teniendo en cuenta para ordenar mis productos, pero que sí les interesa a los usuarios? ¿Cuáles son mis productos con mejor CTR?</p>
+                        </div>
                     </div>
-                </section>
-            </div>
-            <div >
-                <section id="promociones" class="servicios-promociones-2 divisor">
-                    <div class="serv-text">
-                        <h2 class="servicios-description">Comportamiento de usuarios</h2>
-                        <p>Implementamos una estrategia personalizada para tu negocio en tu página Web que te ayude entender el comportamiento de tus clientes en cada paso. ¿Querés saber con qué elementos prefieren interactuar tus clientes? ¿Qué acciones hacen tus usuarios antes de convertir o abandonar tu web</p>
+                    <div id="rendimiento-venta" class="row no-gutters">
+                        <div class="col-lg-6 text-white showcase-img " style="background-image: url('imagen/rendimientodecanales.jpg');"></div>
+                        <div class="col-lg-6 my-auto showcase-text">
+                            <h2>Rendimiento de canales de venta</h2>
+                            <p class="lead mb-0">Generamos dashboards de seguimiento de todos tus canales de venta para que puedas tomar mejores decisiones con tus productos. ¿Cuál es el producto más visitado por canal de venta? ¿Qué insight debo mejorar en cada canal de venta?</p>
+                        </div>
                     </div>
-                    <img src="imagen/comportamientousuario.jpg" alt="comportamiento de usuario" width="30%" height="30%">
-                </section>
-            </div>
-        </main>        <footer class="py-5 bg-dark">
+                    <div  id="auditoria" class="row no-gutters">
+                        <div class="col-lg-6 order-lg-2 text-white showcase-img " style="background-image: url('imagen/auditorias.jpg');"></div>
+                        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                            <h2>Auditoría de seguimiento</h2>
+                            <p class="lead mb-0">Auditamos tu sitio web para optimizar implementaciones que posees de tags de seguimiento, conversión y remarketing. Mejoramos las implementaciones según el tipo de sitio, single page, multi page, app nativas.</p>
+                        </div>
+                    </div>
+                    <div id="promociones" class="row no-gutters">
+                        <div class="col-lg-6 text-white showcase-img " style="background-image: url('imagen/comportamientousuario.jpg');"></div>
+                        <div class="col-lg-6 my-auto showcase-text">
+                            <h2>Comportamiento de usuarios</h2>
+                            <p class="lead mb-0">Implementamos una estrategia personalizada para tu negocio en tu página Web que te ayude entender el comportamiento de tus clientes en cada paso. ¿Querés saber con qué elementos prefieren interactuar tus clientes? ¿Qué acciones hacen tus usuarios antes de convertir o abandonar tu web</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>      
+        <footer class="py-5 bg-dark">
             <div class="container">
                 <p> <small > <strong > Somos una empresa especializada en la optimización, implmentación y recolección de datos </strong> <br> Udatapartner © Copyright 2020 </small> </p>
             </div>
